@@ -278,3 +278,22 @@ Nux_Quick_Services::add('mailbox', array(
         'tls' => true
     ),
 ));
+
+Nux_Quick_Services::add('purelymail', array(
+    'server' => 'imap.purelymail.com',
+    'type' => 'imap',
+    'tls' => true,
+    'port' => 993,
+    'name' => 'Purelymail',
+    'auth' => 'login',
+    'smtp' => array(
+        'server' => 'smtp.purelymail.com',
+        'port' => 465,
+        'tls' => true
+    ),
+    'sieve' => array(
+        'port' => 4190,
+        'host' => 'mailserver.purelymail.com',
+        'tls' => true
+    )
+));

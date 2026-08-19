@@ -169,6 +169,9 @@
       <file>./modules/tags/handler_modules.php</file>
       <file>./modules/tags/output_modules.php</file>
     </testsuite>
+    <testsuite name="modules_caldav_calendar">
+      <file>./modules/caldav_calendar/caldav_calendar.php</file>
+    </testsuite>
     <testsuite name="modules_ldap_contacts">
       <file>./modules/ldap_contacts/ldap_contacts.php</file>
     </testsuite>
